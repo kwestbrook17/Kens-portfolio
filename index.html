@@ -3,16 +3,15 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="assets\style.css">
   <title>Kenneth Westbrook</title>
 </head>
 
 <body>
   <header>
-    <h1>Kenneth Westbrook</h1>
     <nav>
       <ul>
-        <li><a href="#About Me">About Me</a></li>
+        <li><a href="#About_Me">About Me</a></li>
         <li><a href="#Work">Work</a></li>
         <li><a href="#Contact">Contact Me</a></li>
       </ul>
@@ -20,8 +19,9 @@
   </header>
 
   <main>
-    <section id="About Me">
+    <section id="About_Me">
       <figure>
+        <h1>Kenneth Westbrook</h1>
         <img src="./assets/Kenneth.jpg" alt="Picture of Kenneth" />
       </figure>
       <h2>About Me</h2>
@@ -36,23 +36,38 @@
 
     <section id="Work">
       <h2>Work</h2>
-      <nav>
-        <button>Project 1</button>
-        <button>Project 2 </button>
-        <button>Project 3</button>
-      </nav>
-    </section>
+      <div class="projects">
+        <section class="card">
+          <header>Project 1</header>
+          <img src="./assets/images/camera.jpg" alt="Project 1 Photo" />
+          <p>Short description of project</p>
+        </section>
+        <section class="card">
+          <header>Project 2</header>
+          <img src="./assets/images/tablet.jpg" alt="Project 2 Photo" />
+          <p>Short description of project</p>
+        </section>
+        <section class="card">
+          <header>Project 3</header>
+          <img src="./assets/images/toilet-paper.jpg" alt="Project 3 Photo" />
+          <p>Short description of project</p>
+        </section>
+        <section class="card">
+          <header>Project 4</header>
+          <img src="./assets/images/wooden-spoons.jpg" alt="Project 4 Photo" />
+          <p>Short description of project</p>
+        </section>
 
-    <section id="Contact">
-      <h2>Contact Me</h2>
-      <ul class="highlighted-text">
-        <li>Email: <a href="#">kennethwestbrook17@gmail.com</a></li>
-        <li>GitHub: <a href="#">github.com/kwestbrook17</a></li>
-        <li>Phone Number: <a href="#">607-759-7425</a></li>
-        <li>Linkedin: <a href="#">https://www.linkedin.com/in/kenneth-westbrook/</a></li>
-      </ul>
-      <br>
-    </section>
+        <section id="Contact">
+          <h2>Contact Me</h2>
+          <ul class="highlighted-text">
+            <li>Email: <a href="#">kennethwestbrook17@gmail.com</a></li>
+            <li>GitHub: <a href="#">github.com/kwestbrook17</a></li>
+            <li>Phone Number: <a href="#">607-759-7425</a></li>
+            <li>Linkedin: <a href="#">https://www.linkedin.com/in/kenneth-westbrook/</a></li>
+          </ul>
+          <br>
+        </section>
   </main>
 
   <footer>

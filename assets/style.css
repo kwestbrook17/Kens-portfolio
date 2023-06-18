@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: navy;
+    color: white;
+    font-size: large;
+}
+
+h1 {
+    text-align: center;
+    color: navy;
+    font-size: 200%;
+}
+
+h2 {
+    text-align: center;
+    color: navy;
+    font: 150%;
+}
+
+#img {
+    text-align: center;
+}
+
+.projects {
+    flex: 4;
+    background-color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.card {
+    border-style: solid;
+    border-width: 3px;
+    padding: 10px;
+    flex: 0 0 300px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: navy;
+    color: white;
+    font-size: medium;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    main,
+    nav {
+        flex-direction: column;
+    }
+}
