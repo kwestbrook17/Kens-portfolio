@@ -14,6 +14,13 @@ header {
     font-size: large;
 }
 
+nav {
+    text-align: right;
+    background-color: navy;
+    color: white;
+    font-size: larger;
+}
+
 h1 {
     text-align: center;
     color: navy;
@@ -24,6 +31,11 @@ h2 {
     text-align: center;
     color: navy;
     font: 150%;
+}
+
+#highlighted-text {
+    background-color: navy;
+    color: white;
 }
 
 #img {
