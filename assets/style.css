@@ -21,9 +21,9 @@ header {
 
 nav>a {
     text-align: left;
-    background-color: white;
-    color: navy;
-    font-size: medium;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: large;
     padding: 5px 10px;
 }
 
@@ -35,7 +35,7 @@ nav>a:hover {
 /* About Me CSS */
 
 #About_Me div {
-    background-color: navy;
+    background-color:navy;
     padding: 0px 10px;
     display: flex;
     justify-content: space-around;
@@ -45,7 +45,7 @@ nav>a:hover {
 #About_Me div h1 {
     background-color: navy;
     width: 30%;
-    border-right: 5px solid pink;
+    border-right: 5px solid cornflowerblue;
     text-size-adjust: 200%;
     color: white;
     font-size: xx-large;
@@ -53,8 +53,9 @@ nav>a:hover {
 
 p {
     background-color: navy;
-    width: 60%;
+    width: 50%;
     padding: 10px 0px;
+    text-align: left;
 }
 
 /* Work CSS */
@@ -67,7 +68,7 @@ p {
 #example>h1 {
     background-color: navy;
     width: 30%;
-    border-right: 5px solid pink;
+    border-right: 5px solid cornflowerblue;
     text-size-adjust: 200%;
     color: white;
     font-size: xx-large;
@@ -75,19 +76,19 @@ p {
 
 article {
     background-color: navy;
-    width: 60%;
-    padding: 10px 0px;
+    width: 50%;
+    padding: 25px 25px;
 }
 
 article div {
     position: relative;
     margin-bottom: 10px;
-    border: solid 5px pink;
+    border: solid 5px cornflowerblue;
 }
 
 article>div {
     height: 50%;
-    background-color: blue;
+    background-color: white;
     display: flex;
     justify-content: center;
 }
@@ -124,27 +125,46 @@ article section div {
 }
 
 /* Contact me CSS*/
+#Contact {
+    height: fit-content;
+    background-color: cornflowerblue;
+}
 #Contact div {
-    background-color: navy;
+    background-color:cornflowerblue;
     padding: 0px 10px;
     display: flex;
     justify-content: space-around;
 }
 
-#Contact>h1 {
-    background-color: navy;
+
+#Contact div h1 {
+    background-color: cornflowerblue;
     width: 30%;
-    border-right: 5px solid pink;
+    border-right: 5px solid cornflowerblue;
     text-size-adjust: 200%;
     color: white;
     font-size: xx-large;
+}
+
+ul {
+    background-color: cornflowerblue;
+    width: 50%;
+    padding: 10px 0px;
+}
+
+li{
+   text-align: left;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: large;
+    padding: 5px 10px; 
 }
 
 /* Footer CSS*/
 footer {
     display: flex;
     justify-content: center;
-    background-color: navy;
+    background-color: cornflowerblue;
     color: white;
     font-size: medium;
     text-align: center;
@@ -163,5 +183,10 @@ footer {
     article {
         background-color: navy;
         width: 100%;
+    }
+
+    article img {
+        height: 150px;
+        width: 150px;
     }
 }
