@@ -4,73 +4,83 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="assets\style.css">
+  <link rel="stylesheet" href="./assets/reset.css">
   <title>Kenneth Westbrook</title>
 </head>
 
 <body>
-  <nav>
-    <a href="#About_Me">About Me</a>
-    <a href="#Work">Work</a>
-    <a href="#Contact">Contact Me</a>
-  </nav>
+  <header>
+    <h1>Kenneth Westbrook</h1>
+    <nav>
+      <a href="#About_Me">About Me</a>
+      <a href="#Work">Work</a>
+      <a href="#Contact">Contact Me</a>
+    </nav>
+  </header>
 
   <main>
     <section id="About_Me">
       <figure>
-        <h1>Kenneth Westbrook</h1>
+        <div>
         <img src="./assets/Kenneth.jpg" alt="Picture of Kenneth" />
+      </div> 
       </figure>
-      <h2>About Me</h2>
-      <p class="highlighted-text">Kenneth A. Westbrook is currently a student in the UCLA Extension Coding Bootcamp,
-        pursuing a full stack web development education. With a strong background as an Operations Manager based in
-        Los
-        Angeles, California, Kenneth brings a wealth of experience to his coding journey.</p>
-      <p class="highlighted-text">Kenneth holds a Bachelor of Arts in Political Science with a Minor in Data Analytics
-        from St. John Fisher College. Throughout his college years, he was a dedicated member of the Varsity Baseball
-        Team, achieving accolades such as Empire 8 Rookie of the Year and First Team All-Conference. He was part of
-        the
-        championship-winning teams in 2021 and 2022.</p>
+      <div>
+        <h1>About Me</h1>
+        <p>Kenneth A. Westbrook is currently a student in the UCLA Extension Coding Bootcamp, pursuing a full stack web
+          development education. With a strong background as an Operations Manager based in Los Angeles, California,
+          Kenneth brings a wealth of experience to his coding journey. Kenneth holds a Bachelor
+          of Arts in Political Science with a Minor in Data Analytics
+          from St. John Fisher College. Throughout his college years, he was a dedicated member of the Varsity
+          Baseball
+          Team, achieving accolades such as Empire 8 Rookie of the Year and First Team All-Conference. He was part of
+          the
+          championship-winning teams in 2021 and 2022.
+        </p>
+      </div>
     </section>
 
     <section id="Work">
-      <h2>Work</h2>
-      <div class="projects">
-        <section class="card">
-          <header>Project 1</header>
-          <img src="assets\comingsoon.jpg" alt="Project 1 Photo" />
-          <p>Short description of project</p>
-        </section>
-        <section class="card">
-          <header>Project 2</header>
-          <img src="assets\comingsoon.jpg" alt="Project 2 Photo" />
-          <p>Short description of project</p>
-        </section>
-        <section class="card">
-          <header>Project 3</header>
-          <img src="assets\comingsoon.jpg" alt="Project 3 Photo" />
-          <p>Short description of project</p>
-        </section>
-        <section class="card">
-          <header>Project 4</header>
-          <img src="assets\comingsoon.jpg" alt="Project 4 Photo" />
-          <p>Short description of project</p>
-        </section>
+      <div id="example">
+        <h1>Work</h1>
+        <article>
+          <div> <img src="assets\comingsoon.jpg" alt="Project 1 Photo" />
+            <p class="overlay">Project 1</p>
+          </div>
+          <section>
+            <div>
+              <img src="assets\comingsoon.jpg" alt="Project 2 Photo" />
+              <p class="overlay">Project 2</p>
+            </div>
+            <div>
+              <img src="assets\comingsoon.jpg" alt="Project 3 Photo" />
+              <p class="overlay">Project 3</p>
+            </div>
+            <div>
+              <img src="assets\comingsoon.jpg" alt="Project 4 Photo" />
+              <p class="overlay">Project 4</p>
+            </div>
+            <div>
+              <img src="assets\comingsoon.jpg" alt="Project 5 Photo" />
+              <p class="overlay">Project 5</p>
+            </div>
+          </section>
+        </article>
+      </div>
+    </section>
 
-        <Section>
-          <h2>Resume</h2>
-          <embed src="assets\Kenneth Westbrook Resume (5).pdf" type="application/pdf" width="100%" height="50%" />
-        </Section>
-
-        <section id="Contact">
-          <h2>Contact Me</h2>
-          <ul class="highlighted-text">
-            <li>Email: <a href="#">kennethwestbrook17@gmail.com</a></li>
-            <li>GitHub: <a href="#">github.com/kwestbrook17</a></li>
-            <li>Phone Number: <a href="#">607-759-7425</a></li>
-            <li>Linkedin: <a href="#">https://www.linkedin.com/in/kenneth-westbrook/</a></li>
-          </ul>
-          <br>
-        </section>
+    <section id="Contact">
+      <div> 
+        <h1>Contact Me</h1>
+        <ul>
+          <li>Email: <a href="#">kennethwestbrook17@gmail.com</a></li>
+          <li>GitHub: <a href="#">github.com/kwestbrook17</a></li>
+          <li>Phone Number: <a href="#">607-759-7425</a></li>
+          <li>Linkedin: <a href="#">https://www.linkedin.com/in/kenneth-westbrook/</a></li>
+        </ul>
+        </div>
+        <br>
+    </section>
   </main>
 
   <footer>

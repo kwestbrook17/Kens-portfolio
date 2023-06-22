@@ -3,63 +3,144 @@ body {
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    background-color: navy;
+    color: white;
 }
+
+/* Header CSS */
 
 header {
     display: flex;
     justify-content: space-between;
-    text-align: center;
-    background-color: navy;
+    text-align: left;
+    background-color: cornflowerblue;
     color: white;
-    font-size: large;
+    font-size: xx-large;
+    padding-bottom: 7px;
 }
 
-nav {
-    text-align: right;
-    background-color: navy;
-    color: white;
-    font-size: larger;
-}
-
-h1 {
-    text-align: center;
+nav>a {
+    text-align: left;
+    background-color: white;
     color: navy;
-    font-size: 200%;
+    font-size: medium;
+    padding: 5px 10px;
 }
 
-h2 {
-    text-align: center;
+nav>a:hover {
+    background-color: lightgray;
     color: navy;
-    font: 150%;
 }
 
-#highlighted-text {
+/* About Me CSS */
+
+#About_Me div {
     background-color: navy;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#About_Me div h1 {
+    background-color: navy;
+    width: 30%;
+    border-right: 5px solid pink;
+    text-size-adjust: 200%;
     color: white;
+    font-size: xx-large;
 }
 
-#img {
-    text-align: center;
+p {
+    background-color: navy;
+    width: 60%;
+    padding: 10px 0px;
 }
 
-.projects {
-    flex: 4;
-    background-color: #fff;
-    padding: 50px;
+/* Work CSS */
+#example {
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#example>h1 {
+    background-color: navy;
+    width: 30%;
+    border-right: 5px solid pink;
+    text-size-adjust: 200%;
+    color: white;
+    font-size: xx-large;
+}
+
+article {
+    background-color: navy;
+    width: 60%;
+    padding: 10px 0px;
+}
+
+article div {
+    position: relative;
+    margin-bottom: 10px;
+    border: solid 5px pink;
+}
+
+article>div {
+    height: 50%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+article img {
+    height: 100%;
+    width: 100%;
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+}
+
+article img:hover {
+    filter: grayscale(0%);
+}
+
+.overlay {
+    position: absolute;
+    background-color: black;
+    bottom: 10px;
+    left: 0
+}
+
+article>section {
+    background-color: navy;
+    height: 50%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
-
-.card {
-    border-style: solid;
-    border-width: 3px;
-    padding: 10px;
-    flex: 0 0 300px;
+    justify-content: space-between;
 }
 
 
+article section div {
+    width: 45%;
+}
+
+/* Contact me CSS*/
+#Contact div {
+    background-color: navy;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#Contact>h1 {
+    background-color: navy;
+    width: 30%;
+    border-right: 5px solid pink;
+    text-size-adjust: 200%;
+    color: white;
+    font-size: xx-large;
+}
+
+/* Footer CSS*/
 footer {
     display: flex;
     justify-content: center;
@@ -69,10 +150,18 @@ footer {
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-
-    main,
-    nav {
+@media screen and (max-width: 600px) {
+    #example {
         flex-direction: column;
+        padding: 0px 5px;
+    }
+
+    #example>h1 {
+        width: 100%;
+    }
+
+    article {
+        background-color: navy;
+        width: 100%;
     }
 }
