@@ -35,7 +35,7 @@ nav>a:hover {
 /* About Me CSS */
 
 #About_Me div {
-    background-color:navy;
+    background-color: navy;
     padding: 0px 10px;
     display: flex;
     justify-content: space-around;
@@ -104,6 +104,11 @@ article img:hover {
     filter: grayscale(0%);
 }
 
+article a {
+    display: inline;
+    text-decoration: none;
+}
+
 .overlay {
     position: absolute;
     background-color: black;
@@ -113,7 +118,7 @@ article img:hover {
 
 article>section {
     background-color: navy;
-    height: 50%;
+    height: 25%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -126,20 +131,23 @@ article section div {
 
 /* Contact me CSS*/
 #Contact {
-    height: fit-content;
-    background-color: cornflowerblue;
+    padding-top: 40px;
+    background-color: navy;
+
 }
+
 #Contact div {
-    background-color:cornflowerblue;
+    background-color: navy;
     padding: 0px 10px;
     display: flex;
     justify-content: space-around;
+    
 }
 
 
 #Contact div h1 {
-    background-color: cornflowerblue;
-    width: 30%;
+    background-color: navy;
+    width: 32%;
     border-right: 5px solid cornflowerblue;
     text-size-adjust: 200%;
     color: white;
@@ -147,24 +155,28 @@ article section div {
 }
 
 ul {
-    background-color: cornflowerblue;
+    background-color: navy;
     width: 50%;
     padding: 10px 0px;
 }
 
-li{
-   text-align: left;
-    background-color: cornflowerblue;
+li {
+    text-align: left;
+    background-color: navy;
     color: white;
     font-size: large;
-    padding: 5px 10px; 
+    padding: 5px 10px;
+}
+
+li a {
+    color: white;
 }
 
 /* Footer CSS*/
 footer {
     display: flex;
     justify-content: center;
-    background-color: cornflowerblue;
+    background-color: navy;
     color: white;
     font-size: medium;
     text-align: center;
